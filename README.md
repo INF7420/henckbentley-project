@@ -6,7 +6,7 @@ I am going to build a portfolio site.  The main purpose of this project will be 
 
 I value planning so here are some wireframes to show how the site architecture and layout could possibly be.
 
-![Wireframe of Landing Page](C:\Users\Alberto\Documents\henckbentley-project\wireframes\wireframe-sketch.jpg)
+![Wireframe of Landing Page](wireframes/wireframe-sketch.jpg)
 
 Header will include my name and two stock images of bookstacks.
 
