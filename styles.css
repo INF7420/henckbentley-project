@@ -1,0 +1,75 @@
+.main-navigation {
+    background: whitesmoke
+}
+
+.main-navigation ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.main-navigation li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: .3s background-color;
+}
+
+.main-navigation a:hover {
+    background-color: #89ebeb; 
+}
+
+.main-navigation a.active {
+    background-color: #000;
+    color: #fff;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .main-navigation li {
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: 9px;
+    }
+
+    .main-nagivation a {
+        padding: 0 1em
+    }
+}
+
+img {
+max-width: 100%;
+}
+
+h2 {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.edu {
+    text-indent: 20px;
+}
+
+.edu2 {
+    text-indent: 30px;
+}
+
+.edu3 {
+    text-indent: 40px;
+}
+
+.intro {
+    text-align: center;
+}
