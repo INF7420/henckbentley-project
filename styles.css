@@ -73,3 +73,16 @@ h2 {
 .intro {
     text-align: center;
 }
+
+input[type=text], textarea {
+    border-style: inset;
+    border-width: 2px;
+}
+
+[type="submit"]:hover {
+    background: purple
+}
+
+[type="name"]:hover {
+    background: purple
+}
