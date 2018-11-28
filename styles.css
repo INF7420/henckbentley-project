@@ -73,3 +73,58 @@ h2 {
 .intro {
     text-align: center;
 }
+
+input[type=text], textarea {
+    border-style: inset;
+    border-width: 2px;
+}
+
+[type="submit"]:hover {
+    background: purple
+}
+
+[type="name"]:hover {
+    background: purple
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace
+}
+h1 {
+    font-size: 3em
+}
+
+h1 {
+    text-align: center
+}
+.currentlyreading {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+.currentlywatching {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+* {
+    text-align: center
+}
+
+.column1of2 {
+    float: left;
+    width: 620px;
+    margin: 10px;
+}
+
+.column2of2 {
+    float: left;
+    width: 620px;
+    margin: 0px;
+}
