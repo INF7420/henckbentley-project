@@ -1,5 +1,5 @@
 .main-navigation {
-    background: whitesmoke
+    background: palevioletred
 }
 
 .main-navigation ul {
@@ -127,4 +127,8 @@ h1 {
     float: left;
     width: 620px;
     margin: 0px;
+}
+
+body {
+    background-color: rgb(182, 216, 245);
 }
