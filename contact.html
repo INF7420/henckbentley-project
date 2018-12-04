@@ -24,26 +24,54 @@
   <br />
   <br />
   <br />
-  Website: (insert link when created)
+  <main>
+    <form action="https://formspree.io/rachel.henck@gmail.com" method="POST" data-validate>
+      <div>
+        <label for="name">Name
+          <input id="name" type="text" name="name" class="form-input">
+        </label>
+      </div>
+      <br />
 
-  <body>
-    <footer>
-      <nav class="main-navigation">
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="about.html">About Me</a>
-          </li>
-          <li>
-            <a href="education.html">Education</a>
-          </li>
-          <li>
-            <a href="professional experience.html">Professional Experience</a>
-          </li>
-          <li>
-            <a href="contact.html" class="active">Contact</a>
-    </footer>
+      <label for="email">Email
+        <input type="email" name="_replyto" class="form-input" required>
+      </label>
+      </div>
+      <br />
+      <br />
+      <div>
+  <label for="message">Message
+          <textarea id="message" name="message" class="form-input" required></textarea>
+        </label> <br />
+        <br />
+        <input type="submit" value="Send">
+    </form>
+
+  </main>
+
+  <footer>
+    <nav class="main-navigation">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About Me</a>
+        </li>
+        <li>
+          <a href="education.html">Education</a>
+        </li>
+        <li>
+          <a href="professional experience.html">Professional Experience</a>
+        </li>
+        <li>
+          <a href="contact.html" class="active">Contact</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js"></script>
+  <script>
+    validate.init();
+  </script>
+</body>
 
 </html>
